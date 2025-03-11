@@ -1,9 +1,9 @@
-package commo.java.projetos.Bancodigital.Banco;
+package com.java.projetos.Bancodigital.Banco;
 import java.util.Scanner;
-import commo.java.projetos.Bancodigital.Banco.usuario.usuario;
+import com.java.projetos.Bancodigital.Banco.usuario.Usuario;
 public class Banco {
     public void cadastrarUsuario(){
-        usuario usuario = new usuario();
+        Usuario usuario = new Usuario();
         Scanner scanner = new Scanner(System.in);
         Scanner nomeUsuario = new Scanner(System.in);
         Scanner cpfUsuario = new Scanner(System.in);
