@@ -37,9 +37,6 @@ public abstract class Conta {
 
     abstract double depositar(double deposito);
     abstract double sacar(double saque);
-
-    public void consultarSaldo(){
-        System.out.println(saldo);
-    }
+    abstract void consultarSaldo();
 
 }
